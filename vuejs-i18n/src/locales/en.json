@@ -1,4 +1,6 @@
 {
   "goodbye": "Goodbye",
-  "hello": "Hello {name}"
+  "hello": "Hello {name}",
+  "car": "car | {count} cars",
+  "person": "no people | one person | {n} people"
 }

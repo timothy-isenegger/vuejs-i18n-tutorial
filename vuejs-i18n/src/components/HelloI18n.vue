@@ -1,7 +1,15 @@
 <template>
   <div>
-    <p>{{ $t("hello", {name}) }}</p>
+    <!--<p>{{ $t("hello", {name}) }}</p>
     <p>{{ $t("goodbye") }}</p>
+    
+    <p>{{ $tc("person", 0)}}</p>
+    <p>{{ $tc("person", 1)}}</p>
+    <p>{{ $tc("person", 4)}}</p> -->
+
+    <p>{{ $d(new Date(), "long") }}</p>
+    <p>{{ $d(new Date(), "long", "en-GB") }}</p>
+
     <button @click="setLocale('en')" class="button">English</button>
     <button @click="setLocale('es')" class="button">Spanish</button>
     <button @click="setLocale('de')" class="button">German</button>
