@@ -2,5 +2,7 @@
   "goodbye": "Goodbye",
   "hello": "Hello {name}",
   "car": "car | {count} cars",
-  "person": "no people | one person | {n} people"
+  "person": "no people | one person | {n} people",
+  "terms": "I accept the {termsUrl} of this service",
+  "termsLink": "terms and conditions"
 }
